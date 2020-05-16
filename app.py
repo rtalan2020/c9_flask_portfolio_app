@@ -85,9 +85,9 @@ def python_apps_page():
 	return render_template('python_apps.html')
 
 @app.route('/contact')
-def python_apps_page():
+def contact_apps_page():
 	# testing stuff
-	return render_template('contact.html')
+	return render_template('python_apps.html')
 
 
 @app.route('/blog', methods=['GET'])
